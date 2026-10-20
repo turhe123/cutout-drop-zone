@@ -1,5 +1,7 @@
 # CutoutDropZone
 
+**🌐 Website:** [turhe123.github.io/cutout-drop-zone](https://turhe123.github.io/cutout-drop-zone/)
+
 Drop a photo and get back a transparent-background cutout of its subject in seconds, fully offline.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,17 @@ CutoutDropZone is a free, open-source, 100% native, backend-free alternative to 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-cutout-preview.png" alt="CutoutDropZone main window showing a penguin cutout on a transparent checkerboard" width="720"></p>
+
+<p align="center"><em>A batch of five photos lifted with Vision, with the selected penguin shown as a transparent cutout on a checkerboard.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-black-background.png" alt="Guitar cutout placed on a black background with the per-image controls bar" width="560"></p>
+
+<p align="center"><em>Per-image controls swap the background to black, white or a custom color, with edge feather and trim to subject.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="CutoutDropZone Settings window" width="560"></p>
+
+<p align="center"><em>Settings for the default export format, output folder, file name suffix and defaults for new images.</em></p>
 
 ## Install
 

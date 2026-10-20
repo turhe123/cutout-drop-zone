@@ -1,0 +1,24 @@
+{
+  "seo_title": "Offline background remover for macOS",
+  "seo_description": "CutoutDropZone is a free, open-source Mac app that removes photo backgrounds offline with Apple Vision. Drop images, get transparent PNG cutouts.",
+  "hero_title_line1": "Drop a photo.",
+  "hero_title_accent": "Get the cutout.",
+  "hero_sub": "Drop one image or a whole batch and get a transparent-background cutout of the subject, made offline with Apple's Vision framework. Press Space to flip between before and after.",
+  "features_title": "Cutouts without the upload.",
+  "features_sub": "Everything runs on your Mac, from subject detection to export.",
+  "features": [
+    {"icon": "image", "title": "Subject lifting with Vision", "desc": "Uses Apple's foreground instance mask to separate the subject from the background. Large images are downscaled for the model and the mask is scaled back up."},
+    {"icon": "download", "title": "Batch queue and drop zone", "desc": "Drop PNG, JPEG, HEIC or TIFF files, or whole folders, onto the window or the Dock icon. Images are processed in the background with per-image progress, and bad files do not stop the batch."},
+    {"icon": "sliders", "title": "Per-image controls", "desc": "Choose a transparent, white, black or custom background, set an edge feather from 0 to 5 px, and trim to the subject bounds. Click a subject in the preview to include or exclude it."},
+    {"icon": "eye", "title": "Before and after preview", "desc": "Compare the original and the cutout on a checkerboard, toggled with the Space bar."},
+    {"icon": "folder", "title": "Export, copy or drag out", "desc": "Save PNG with transparency or JPEG, export everything to a folder with a suffix like -cutout, copy to the clipboard, or drag a cutout straight into Finder. Originals are never overwritten."},
+    {"icon": "lock", "title": "Private and offline", "desc": "No network calls, no analytics and no third-party dependencies. Your photos never leave your Mac."}
+  ],
+  "permissions_step": "No special permissions are required.",
+  "faq": [
+    {"q": "Is CutoutDropZone free and open source?", "a": "Yes. It is free to use and released under the MIT license, with the full source on GitHub. If it saves you time, there is an optional Support / Donate button in the app."},
+    {"q": "What permissions does it need?", "a": "None beyond the standard macOS panels. It reads only the images you drop or choose, and writes to the output folder you pick. It does not ask for Accessibility, Screen Recording, Camera or Microphone access."},
+    {"q": "Where is my data stored?", "a": "Your images stay where they are, and cutouts are saved to the folder you choose in Settings. Temporary files for drag-out and for images dropped from browsers live in ~/Library/Caches/CutoutDropZone and are cleared on the next launch."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode and XcodeGen."}
+  ]
+}

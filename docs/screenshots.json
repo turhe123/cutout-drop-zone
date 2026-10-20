@@ -1,0 +1,5 @@
+[
+  {"file":"01-cutout-preview.png","caption":"A batch of five photos lifted with Vision, with the selected penguin shown as a transparent cutout on a checkerboard.","alt":"CutoutDropZone main window showing a penguin cutout on a transparent checkerboard"},
+  {"file":"02-black-background.png","caption":"Per-image controls swap the background to black, white or a custom color, with edge feather and trim to subject.","alt":"Guitar cutout placed on a black background with the per-image controls bar"},
+  {"file":"03-settings.png","caption":"Settings for the default export format, output folder, file name suffix and defaults for new images.","alt":"CutoutDropZone Settings window"}
+]
